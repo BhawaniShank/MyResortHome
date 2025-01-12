@@ -106,7 +106,7 @@ const BookingForm = () => {
          
           <button
             type="submit"
-            className="bg-burnt-orange w-full hover:bg-yellow-700 text-white font-bold py-4 px-4 mt-7 lg:mt-0 rounded-lg text-xl  transition-all duration-300"
+            className="hover:bg-burnt-orange w-full bg-clay-red text-white font-bold py-4 px-4 mt-7 lg:mt-0 rounded-lg text-xl  transition-all duration-300"
           >
           Check availability
           </button>

@@ -1,3 +1,9 @@
+import im1 from "../../assets/photo/key attraction/nemani Kothi/resort1.jpg"
+import im2 from "../../assets/photo/key attraction/nemani Kothi/resort2.jpg"
+import im3 from "../../assets/photo/key attraction/nemani Kothi/resort3.jpg"
+import im4 from "../../assets/photo/key attraction/nemani Kothi/resort4.jpg"
+import im5 from "../../assets/photo/food/facility.jpg"
+import im6 from "../../assets/photo/food/facility2.jpg"
 
 const Hcomp3 = () => {
   const rooms = [
@@ -5,27 +11,27 @@ const Hcomp3 = () => {
       title: 'Premium Palace Rooms',
       description:
         'At the premier palace rooms of Rajasthali Resort and Spa...',
-      image: 'https://picsum.photos/400/300?random=1',
+      image: im1,
     },
     {
       title: 'Deluxe Palace Room',
-      image: 'https://picsum.photos/400/300?random=2',
+      image: im2,
     },
     {
       title: 'Royal Tent',
-      image: 'https://picsum.photos/400/300?random=3',
+      image: im3,
     },
     {
       title: 'Grand Tent',
-      image: 'https://picsum.photos/400/300?random=4',
+      image: im4,
     },
     {
       title: 'Suite',
-      image: 'https://picsum.photos/400/300?random=5',
+      image: im5,
     },
     {
       title: 'Suite',
-      image: 'https://picsum.photos/400/300?random=6',
+      image: im6,
     },
    
   ];
@@ -68,8 +74,8 @@ const Hcomp3 = () => {
     <div
       key={index}
       className={`relative group rounded-lg overflow-hidden shadow-lg ${
-        index === 0 ? 'lg:col-span-2 lg:row-span-2' : '' 
-      } ${index === 1 ? 'lg:-mt-20': ''} ${index === 3 ? 'lg:-ml-20': ''}`}
+        index === 0 ? 'lg:col-span-2  lg:h-[700px] lg:row-span-2' : 'lg:h-[400px]' 
+      } ${index === 1 ? 'lg:-mt-20 ': ''} ${index === 3 ? 'lg:-ml-20': ''}`}
     >
       <img
         src={room.image}

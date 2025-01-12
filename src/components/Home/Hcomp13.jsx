@@ -4,6 +4,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
+import im1 from "../../assets/photo/hut/luxury.jpg"
+import im2 from "../../assets/photo/hut/luxury2.jpg"
+import im3 from "../../assets/photo/hut/luxury3.jpg"
+import im4 from "../../assets/photo/hut/luxury4.jpg"
+
 const RoomCard = ({ imageSrc, title, description }) => (
   <div className="p-4">
     <div className="max-w-sm w-full rounded overflow-hidden shadow-lg bg-white">
@@ -14,13 +19,13 @@ const RoomCard = ({ imageSrc, title, description }) => (
         <p className="text-sm text-gray-600">{description}</p>
       </div>
       <div className="p-4 flex text-sm justify-between gap-2">
-        <button className="flex-grow bg-yellow-600 text-white font-bold py-1 px-2  rounded hover:bg-yellow-500 transition">
+        <button className="flex-grow bg-clay-red text-white font-bold py-1 px-2  rounded hover:bg-burnt-orange transition">
           VIEW RATES
         </button>
-        <button className="flex-grow bg-yellow-600 text-white font-bold py-2 px-4 rounded hover:bg-yellow-500 transition">
+        <button className="flex-grow bg-clay-red text-white font-bold py-2 px-4 rounded hover:bg-burnt-orange transition">
           GALLERY
         </button>
-        <button className="flex-grow bg-transparent text-yellow-600 font-bold py-2 px-4 rounded hover:bg-yellow-100 transition">
+        <button className="flex-grow bg-transparent text-clay-red font-bold py-2 px-4 rounded hover:bg-yellow-100 transition">
           MORE
         </button>
       </div>
@@ -51,32 +56,32 @@ const NextArrow = ({ onClick }) => (
 export default function Hcomp13() {
   const rooms = [
     {
-      imageSrc: "https://picsum.photos/600/400?random=1",
+      imageSrc: im1,
       title: "LUXURY ROOM",
       description: "The serene sanctuary of our expansive, windowless hotel rooms in Mumbai....",
     },
     {
-      imageSrc: "https://picsum.photos/600/400?random=2",
+      imageSrc: im2,
       title: "LUXURY GRANDE ROOM CITY VIEW KING BED",
       description: "Classic elegance permeates these Taj Mahal Palace rooms, located on the....",
     },
     {
-      imageSrc: "https://picsum.photos/600/400?random=3",
+      imageSrc: im3,
       title: "DELUXE ROOM",
       description: "Experience the ultimate in luxury and comfort in our deluxe rooms....",
     },
     {
-      imageSrc: "https://picsum.photos/600/400?random=1",
+      imageSrc: im4,
       title: "LUXURY ROOM",
       description: "The serene sanctuary of our expansive, windowless hotel rooms in Mumbai....",
     },
     {
-      imageSrc: "https://picsum.photos/600/400?random=2",
+      imageSrc: im3,
       title: "LUXURY GRANDE ROOM CITY VIEW KING BED",
       description: "Classic elegance permeates these Taj Mahal Palace rooms, located on the....",
     },
     {
-      imageSrc: "https://picsum.photos/600/400?random=3",
+      imageSrc: im2,
       title: "DELUXE ROOM",
       description: "Experience the ultimate in luxury and comfort in our deluxe rooms....",
     },

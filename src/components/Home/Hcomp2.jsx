@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-
+import bg from "../../assets/photo/hut/luxury.jpg"
+import bg2 from "../../assets/photo/hut/luxury2.jpg"
+import bg3 from "../../assets/photo/hut/luxury3.jpg"
 const images = [
-    "https://picsum.photos/800/400?random=1",
-    "https://picsum.photos/800/400?random=2",
-    "https://picsum.photos/800/400?random=3",
+    `${bg}`,
+    `${bg2}`,
+    `${bg3}`,
+
+    
 ];
 
 const Hcomp2 = () => {
@@ -32,20 +36,20 @@ const Hcomp2 = () => {
         <div className="flex flex-col lg:flex-row items-center justify-center min-h-full  p-4">
             <div className="lg:w-1/2 p-8 text-center lg:text-left">
                
-                <h1 className="text-2xl lg:text-4xl font-bold mb-4">ITC HOTELS</h1>
-                <p className="text-sm lg:text-lg font-semibold mb-4">RESPONSIBLE LUXURY</p>
-                <p className="text-gray-700 mb-4">
+                <h1 className="text-2xl lg:text-4xl text-clay-red font-bold mb-4">ITC HOTELS</h1>
+                <p className="text-sm lg:text-lg font-semibold mb-4 text-clay-red">RESPONSIBLE LUXURY</p>
+                <p className="text-clay-red mb-4">
                     With ‘Namaste’ as the enduring symbol of its brand experience and ‘Responsible Luxury’ as the
                     guiding premise, ITC Hotels are an archetype of the culture and ethos of each destination
                     offering authentic, indigenous luxury experiences which are in harmony with the environment
                     and society.
                 </p>
-                <p className="text-gray-700 mb-8">
+                <p className="text-clay-red mb-8">
                     With a platinum grade commitment to our guests and the planet, 23 ITC Hotel properties are
                     certified with a LEED (Leadership in Energy and Environmental Design) Platinum rating for
                     globally recognised planet positive endeavours.
                 </p>
-                <button className="px-6 py-2 border border-black rounded-full text-black hover:bg-black hover:text-white transition duration-300">
+                <button className="px-6 py-2 border border-clay-red rounded-full text-clay-red hover:bg-clay-red hover:text-white transition duration-300">
                     KNOW MORE
                 </button>
             </div>

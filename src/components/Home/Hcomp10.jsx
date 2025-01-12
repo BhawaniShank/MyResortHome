@@ -1,5 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
 
+import im1 from "../../assets/photo/hut/luxury.jpg"
+import im2 from "../../assets/photo/hut/luxury2.jpg"
+import im3 from "../../assets/photo/hut/luxury3.jpg"
+import im4 from "../../assets/photo/hut/luxury4.jpg"
 const useOnScreen = (ref) => {
     const [isIntersecting, setIntersecting] = useState(false);
 
@@ -68,22 +72,22 @@ const Hcomp10 = () => {
             {/* Grid Section */}
             <section className="grid grid-cols-2   gap-6 mb-12">
                 <img
-                    src="https://picsum.photos/300/300?random=1"
+                    src={im1}
                     alt="Breakfast served on a tray with coffee and fruits"
                     className="rounded-lg shadow-lg w-full h-full lg:w-[20em] lg:h-[16em] object-cover"
                 />
                 <img
-                    src="https://picsum.photos/300/300?random=2"
+                    src={im2}
                     alt="Luxury hotel with a pool"
                     className="rounded-lg shadow-lg w-full h-full lg:w-[20em] lg:h-[16em] object-cover"
                 />
                 <img
-                    src="https://picsum.photos/300/300?random=3"
+                    src={im3}
                     alt="Resort with a pool and trees"
                     className="rounded-lg shadow-lg w-full h-full lg:w-[20em] lg:h-[16em] object-cover"
                 />
                 <img
-                    src="https://picsum.photos/300/300?random=4"
+                    src={im4}
                     alt="Hotel room with a bed and a view"
                     className="rounded-lg shadow-lg w-full h-full lg:w-[20em] lg:h-[16em] object-cover"
                 />

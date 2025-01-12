@@ -3,6 +3,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import im1 from "../../assets/photo/hut/luxury.jpg"
+import im2 from "../../assets/photo/hut/luxury2.jpg"
+// import im3 from "../../assets/photo/hut/luxury3.jpg"
+import im4 from "../../assets/photo/hut/luxury4.jpg"
+
 const SampleNextArrow = ({ className, style, onClick }) => {
   return (
     <div
@@ -52,7 +57,7 @@ const SimpleSlider = () => {
     <Slider {...settings} className="custom-slider text-[#6F7783]">
       <div className="px-4"> {/* Add padding here */}
         <img
-          src="https://picsum.photos/seed/picsum/800/400"
+          src={im1}
           alt="Elaborate Mughal Gardens"
           className="w-full h-auto"
         />
@@ -60,7 +65,7 @@ const SimpleSlider = () => {
       </div>
       <div className="px-4"> {/* Add padding here */}
         <img
-          src="https://picsum.photos/800/400?random=2"
+          src={im2}
           alt="Exclusive Royal Butlers"
           className="w-full h-auto"
         />
@@ -68,7 +73,7 @@ const SimpleSlider = () => {
       </div>
       <div className="px-4"> {/* Add padding here */}
         <img
-          src="https://picsum.photos/800/400?random=3"
+          src={im4}
           alt="Suvarna Mahal's 18th Century Décor"
           className="w-full h-auto"
         />

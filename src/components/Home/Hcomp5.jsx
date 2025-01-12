@@ -1,10 +1,10 @@
 
-
+import bg from '../../assets/photo/food/dining.jpg'
 const Hcomp5 = () => {
   return (
     <div className="relative h-[40em]">
       <img 
-        src="https://picsum.photos/1600/746" 
+        src={bg} 
         alt="A table set with various breakfast items including coffee, pastries, and fruit" 
         className="absolute inset-0 w-full h-full object-cover" 
       />

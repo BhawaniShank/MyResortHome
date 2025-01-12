@@ -1,4 +1,8 @@
 
+import im1 from "../../assets/photo/hut/luxury.jpg"
+import im2 from "../../assets/photo/hut/luxury2.jpg"
+// import im3 from "../../assets/photo/hut/luxury3.jpg"
+import im4 from "../../assets/photo/hut/luxury4.jpg"
 const Hcomp9 = () => {
     return (
         <div
@@ -11,15 +15,15 @@ const Hcomp9 = () => {
                 <p className="text-clay-red mb-8">All rooms are designed for your comfort</p>
                 <div className="grid grid-cols-1  md:grid-cols-3 gap-8">
                     {[{
-                        image: "https://picsum.photos/400/300?random=1",
+                        image: im1,
                         availability: "2 Rooms available",
                         description: "Television set, Extra sheets and Breakfast",
                     }, {
-                        image: "https://picsum.photos/400/300?random=2",
+                        image: im2,
                         availability: "4 Rooms available",
                         description: "Television set, Extra sheets, Breakfast, and fireplace",
                     }, {
-                        image: "https://picsum.photos/400/300?random=3",
+                        image: im4,
                         availability: "8 Rooms available",
                         description: "Television set, Extra sheets, Breakfast, and fireplace, Console and bed rest",
                     }].map((room, index) => (

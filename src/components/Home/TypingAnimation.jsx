@@ -55,7 +55,7 @@ const TypingAnimation = () => {
         {!isTyping && (
         <button
           onClick={functions[currentLine]}
-          className=" px-6 py-2 m-3 text-3xl bg-[#3b2d26]/50 hover:bg-[#ca8a04] border-2 hover:border-0 border-white text-white rounded-lg transition-all"
+          className=" px-6 py-2 m-3 text-3xl bg-[#3b2d26]/50 hover:bg-clay-red hover:text-white border-2 hover:border-0 border-clay-red text-clay-red rounded-lg transition-all"
         >
           Explore
         </button>
