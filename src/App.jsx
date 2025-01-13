@@ -1,10 +1,14 @@
-import React from 'react'
+
 import Home from './components/Home/Home'
+import DRoom from './components/Rooms/DRoom'
+import Room from './components/Rooms/Room'
 
 const App = () => {
   return (
-    <div>
-    <Home/>
+    <div className='max-w-[120em] mx-auto'>
+    {/* <Home/> */}
+    {/* <Room/> */}
+    <DRoom/>
     </div>
   )
 }
