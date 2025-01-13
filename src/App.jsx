@@ -6,9 +6,9 @@ import Room from './components/Rooms/Room'
 const App = () => {
   return (
     <div className='max-w-[120em] mx-auto'>
-    {/* <Home/> */}
+    <Home/>
     {/* <Room/> */}
-    <DRoom/>
+    {/* <DRoom/> */}
     </div>
   )
 }
